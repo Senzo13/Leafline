@@ -1,13 +1,26 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { CONTAINER } from "src/theme/styles";
-import styles from "./settings.styles";
-const Settings = () => {
+
+// Exemple d'utilisation de la font family "poppins-bold" dans le composant Home (Fonctionne grâce au chargement du useEffect dans le App.jsx)
+
+export default function Settings() {
   return (
-    <View style={CONTAINER.container}>
-      <Text style={styles.txt}>Settings</Text>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <Text
+        style={{
+          fontFamily: "poppins-regular",
+          fontSize: 20,
+          color: "#50B26C",
+        }}
+      >
+        Settings
+      </Text>
     </View>
   );
-};
-
-export default Settings;
+}

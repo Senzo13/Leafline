@@ -2,7 +2,7 @@
   "expo": {
     "name": "Leafline",
     "slug": "Leafline",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./src/assets/images/icons/icon.png",
     "userInterfaceStyle": "light",

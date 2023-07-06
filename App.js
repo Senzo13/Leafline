@@ -12,6 +12,7 @@
 
 // Dependencies
 import * as React from "react";
+import { useFonts } from "expo-font";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 // Screens
@@ -19,11 +20,20 @@ import Home from "~screens/home/home";
 import Dashboard from "~screens/dashboard/dashboard";
 import Settings from "~screens/settings/settings";
 // Components
-import CustomTabBar from "~components/organisms/customTabBar";
+import CustomTabBar from "~components/organisms/navigation/customTabBar";
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
+  // Load fonts from assets/fonts folder with expo-font
+  const [loaded] = useFonts({
+    "poppins-regular": require("./src/assets/fonts/Poppins-Regular.ttf"),
+    "poppins-bold": require("./src/assets/fonts/Poppins-Bold.ttf"),
+  });
+
+  if (!loaded) {
+    return null;
+  }
   return (
     <NavigationContainer>
       <Tab.Navigator tabBar={(props) => <CustomTabBar {...props} />}>
@@ -31,8 +41,8 @@ export default function App() {
           name="Home"
           component={Home}
           options={{
-            activeIcon: "home",
-            inactiveIcon: "home-outline",
+            activeIcon: "Home",
+            inactiveIcon: "Home",
             headerShown: false,
           }}
         />
@@ -40,8 +50,8 @@ export default function App() {
           name="Dashboard"
           component={Dashboard}
           options={{
-            activeIcon: "list",
-            inactiveIcon: "list-outline",
+            activeIcon: "Dashboard",
+            inactiveIcon: "Dashboard",
             headerShown: false,
           }}
         />
@@ -49,8 +59,8 @@ export default function App() {
           name="Settings"
           component={Settings}
           options={{
-            activeIcon: "settings",
-            inactiveIcon: "settings-outline",
+            activeIcon: "Settings",
+            inactiveIcon: "Settings",
             headerShown: false,
           }}
         />

@@ -1,14 +1,25 @@
 import React from "react";
 import { View, Text } from "react-native";
-import styles from "./home.styles";
-import { CONTAINER } from "src/theme/styles";
 
-const Home = () => {
+// Exemple d'utilisation de la font family "poppins-bold" dans le composant Home (Fonctionne grâce au chargement du useEffect dans le App.jsx)
+export default function Home() {
   return (
-    <View style={CONTAINER.container}>
-      <Text style={styles.txt}>Home</Text>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <Text
+        style={{
+          fontFamily: "poppins-regular",
+          fontSize: 20,
+          color: "#50B26C",
+        }}
+      >
+        Home
+      </Text>
     </View>
   );
-};
-
-export default Home;
+}

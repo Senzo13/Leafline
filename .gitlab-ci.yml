@@ -1,0 +1,24 @@
+# .gitlab-ci.yml
+
+stages:
+  - install
+  - test
+
+variables:
+  CI_DEBUG_TRACE: "true"
+
+install:
+  stage: install
+  image: node:14.17.0
+  before_script:
+    - npm install -g expo-cli
+  script:
+    - npm install
+
+test:
+  stage: test
+  image: node:14.17.0
+  before_script:
+    - npm install -g expo-cli
+  script:
+    - expo test
