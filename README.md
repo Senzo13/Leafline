@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
 ![Node](https://img.shields.io/badge/Node-%3E%3D18-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-<img src="background-mockup.jpg" alt="Leafline App Preview" width="80%" />
+<img src="leafline.webp" alt="Leafline App Preview" width="80%" />
 
 **Leafline** is a cross-platform React Native mobile app that combines **IoT sensor data**, **AI-powered insights**, and **real-time weather forecasting** to help gardeners protect and nurture their plants. Monitor soil moisture, temperature, and light intensity — all from your phone.
 
