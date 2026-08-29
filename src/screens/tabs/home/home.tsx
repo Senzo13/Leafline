@@ -23,6 +23,7 @@ import { useTranslation } from 'react-i18next';
 import LinearGradient from 'react-native-linear-gradient';
 import MaterialCommunityIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
+import DemoTerrainMap from '@components/common/Map/demo.terrain.map';
 
 interface HomeProps {
   navigation: NativeStackNavigationProp<RootStackParamList, 'Home'>;
@@ -130,6 +131,7 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
               </View>
             </View>
             ) : null}
+            <DemoTerrainMap />
             <View
               style={{
                 flexDirection: 'row',
