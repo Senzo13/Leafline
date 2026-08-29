@@ -1,0 +1,312 @@
+{
+  "general": {
+    "change_language": "EN",
+    "lang_fr": "French",
+    "lang_en": "English"
+  },
+  "auth": {
+    "general": {
+      "email": "Email",
+      "password": "Password",
+      "forgot_password_button": "Forgot Password?",
+      "other_methods": "Other ways to log in:",
+      "google": "Continue with Google",
+      "username": "Username",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "confirm_password": "Confirm Password",
+      "city": "City",
+      "country": "Country",
+      "postal_code": "Postal code",
+      "type_your": "Type your",
+      "required": "is required"
+    },
+    "login": {
+      "title": "Log in",
+      "button": "Login",
+      "link": "Sign up",
+      "account": "Don't have an account?"
+    },
+    "register": {
+      "title": "Sign up",
+      "button": "Register",
+      "link": "Log in",
+      "account": "Already have an account?"
+    },
+    "validations": {
+      "username_required": "Username is required",
+      "username_minLength": "Username must be at least 1 character long",
+      "username_maxLength": "Username cannot exceed 50 characters",
+      "first_name_required": "First name is required",
+      "last_name_required": "Last name is required",
+      "email_required": "Email is required",
+      "email_pattern": "Email is not valid",
+      "email_maxLength": "Email cannot exceed 80 characters",
+      "city_required": "City is required",
+      "country_required": "Country is required",
+      "password_required": "Password is required",
+      "password_minLength": "Password must be at least 8 characters long",
+      "password_maxLength": "Password cannot exceed 60 characters",
+      "confirm_password_required": "Passwords are not similar",
+      "confirm_password_validate": "Passwords do not match",
+      "city_minLength": "City must be at least 3 characters long",
+      "city_maxLength": "City cannot exceed 80 characters",
+      "postal_code_minLength": "Postal code is required",
+      "postal_code_maxLength": "Postal code cannot exceed 6 characters",
+      "country_minLength": "Country must be at least 3 characters long",
+      "country_maxLength": "Country cannot exceed 26 characters"
+    }
+  },
+  "welcome": {
+    "step-1_title": "Preserve Your Crops",
+    "step-1_subtitle": "Your indispensable partner for a more resilient and productive agriculture.",
+    "step-2_title": "Instant Health Monitoring",
+    "step-2_subtitle": "Boost your crops by monitoring their health status in real-time.",
+    "step-3_title": "Protected Crops",
+    "step-3_subtitle": "We prevent diseases! Protect your crops with our cutting-edge technology.",
+    "step-4_title": "Keep Pests Away",
+    "step-4_subtitle": "Say goodbye to pests! Leafline detects and prevents infestations for hassle-free harvests.",
+    "step-5_title": "Customized Map",
+    "step-5_subtitle": "We put your crops at your fingertips. Use our map to easily manage what grows on your land.",
+    "step-6_title": "Join the Revolution",
+    "step-6_subtitle": "Don't miss the opportunity to transform your way of farming!",
+    "next_button": "Continue",
+    "finish_button": "Finish"
+  },
+  "home": {
+    "field": {
+      "title": "Your Fields",
+      "titre": "Your Field",
+      "subtitle": "Add and manage your fields.",
+      "card": {
+        "subtitle": "My field"
+      },
+      "health": {
+        "title": "Health Analysis",
+        "subtitle": "Start analyzing your field"
+      },
+      "map_title": "Map",
+      "map_subtitle": "View your field on the map.",
+      "alert_title": "Alerts",
+      "alert_subtitle": "View alerts for your land.",
+      "alert_description_danger": "Your sensor has not emitted any data for more than 24 hours!",
+      "alert_description_success": "All is well! Your sensor is functioning correctly.",
+      "sensor_title": "Sensor Data",
+      "sensor_temperature": "Temperature",
+      "sensor_subtitle": "View today's gauges.",
+      "sensor_title_history": "History",
+      "sensor_subtitle_history": "Your weekly history.",
+      "timestamp_monday": "Monday",
+      "timestamp_tuesday": "Tuesday",
+      "timestamp_wednesday": "Wednesday",
+      "timestamp_thursday": "Thursday",
+      "timestamp_friday": "Friday",
+      "timestamp_saturday": "Saturday",
+      "timestamp_sunday": "Sunday",
+      "card_subtitle": "My field"
+    },
+    "welcome": {
+      "welcome": "Welcome",
+      "field": "All your fields are fine !"
+    }
+  },
+  "account": {
+    "title": "My information",
+    "content": "My Settings",
+    "edit": "Edit",
+    "country": "Country",
+    "number": "Phone number",
+    "email": "Email",
+    "username": "Username",
+    "city": "City",
+    "settings": "Settings",
+    "settings_subtitle": "Change your account settings",
+    "theme": "Theme",
+    "theme_subtitle": "Change appearance.",
+    "langn": "Languages",
+    "langn_subtitle": "Change the language.",
+    "cg": "Terms and Conditions",
+    "cg_subtitle": "Read the terms and conditions.",
+    "notifications": "Notifications",
+    "notifications_subtitle": "Receive notifications about your crops",
+    "mode_light": "Light",
+    "mode_dark": "Dark",
+    "button_validate": "Validate",
+    "button_close": "Close",
+    "profile": {
+      "title": "Modify my profile",
+      "subtitle": "Manage my personal information",
+      "email": "Email",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "username": "Username",
+      "city": "City",
+      "country": "Country",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "button_validate": "Validate",
+      "button_cancel": "Cancel",
+      "button_delete": "Delete my account",
+      "delete_subtitle": "Are you sure you want to delete your account?",
+      "delete_button": "Delete",
+      "update_requires_changes": "You must make changes to update your profile",
+      "update_success": "Your profile has been successfully updated",
+      "update_error": "Update failed",
+      "delete_success": "Your account has been successfully deleted"
+    },
+    "cgu": {
+      "title": "Terms of Use and Privacy Policy of Leafline",
+      "content": [
+        {
+          "section": "1. Introduction",
+          "details": "By using the Leafline mobile application, designed to assist farmers in monitoring and managing their crops via sensors, you agree to our practices of collecting, processing, and protecting personal data as described in this document."
+        },
+        {
+          "section": "2. Data Collection",
+          "details": "As part of our services, Leafline collects the following data: Non-personal agricultural data: soil moisture levels, ambient and soil temperatures, relative air humidity, sunlight levels, plant disease prediction based on algorithmic models. Personal data: geolocation of agricultural plots, email address used for application login."
+        },
+        {
+          "section": "3. Data Processing",
+          "details": "Your agricultural data is processed securely and confidentially. It is used to provide personalized analyses and recommendations aimed at optimizing the management of your crops."
+        },
+        {
+          "section": "4. Data Security",
+          "details": "Technical, organizational, and legal security measures are in place to protect your data against unauthorized access, disclosure, or alteration."
+        },
+        {
+          "section": "5. Data Retention",
+          "details": "Your data is retained only for the duration necessary for the purposes for which it was collected, in accordance with legal retention periods."
+        },
+        {
+          "section": "6. User Rights",
+          "details": "You have the right to access, rectify, erase, restrict processing, and portability of your personal data. These rights can be exercised directly in the application or by contacting our support."
+        },
+        {
+          "section": "7. Unsubscribe",
+          "details": "You can unsubscribe from Leafline at any time. Your data will then be securely and irreversibly deleted."
+        },
+        {
+          "section": "8. Transparent Communication",
+          "details": "We are committed to maintaining transparent communication regarding our practices of collecting, processing, and protecting your personal data."
+        },
+        {
+          "section": "9. Privacy Policy Updates",
+          "details": "We reserve the right to modify our privacy policy. You will be informed of any significant changes."
+        },
+        {
+          "section": "10. Acceptance of Terms",
+          "details": "By checking the box below, you agree to the terms of these terms of use, including the collection and processing of your agricultural and personal data as specified."
+        }
+      ]
+    }
+  },
+  "land": {
+    "creation": {
+      "title": "Create a new field",
+      "description": "Here, you can create a new field.",
+      "fieldName": "Field name",
+      "fieldNamePlaceholder": "Enter the name of your field",
+      "fieldNameRequired": "Field name is required",
+      "fieldType": "Field type",
+      "fieldTypePlaceholder": "Select the type of your field",
+      "fieldTypeRequired": "Field type is required",
+      "plotCreation": "Delimit your plots",
+      "submit": "Create your field"
+    },
+    "details": {
+      "title": "Field details",
+      "description": "Here, you can view the details of your field.",
+      "update": "Back to the home"
+    },
+    "map": {
+      "title": "Plots",
+      "search": "Search an address",
+      "bottomSheet": {
+        "title": "Create your plot",
+        "description": "Click on the map to delimit your plot.",
+        "fieldType": "Zone type",
+        "fieldTypePlaceholder": "Select the type of your zone",
+        "fieldTypeRequired": "Zone type is required",
+        "fieldColor": "Choose a color",
+        "submit": "Create your plot",
+        "colorSubmitButton": "Save your color"
+      },
+      "modal": {
+        "title": "Would you like to create a new plot ?",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    }
+  },
+  "plot": {
+    "visualisation": {
+      "title": "Plot details",
+      "description": "Here, you can view the details of your plot.",
+      "color": "Color",
+      "type": "Type"
+    }
+  },
+  "field": {
+    "see": "See"
+  },
+  "scan": {
+    "title": "Your crop is healthy!",
+    "initialTitle": "Scan to assess your crop's health !",
+    "scanButton": "Scan",
+    "fieldsCount": "Your crop has {{count}} fields:",
+    "fieldCondition": "A field of {{name}} under {{test}} conditions",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "lastUpdate": "Last update : "
+  },
+  "step": {
+    "selectField": "Select a field",
+    "selectPlot": "Select a plot",
+    "selectVariety": "Select a variety",
+    "field": "FIELD",
+    "plot": "PLOT",
+    "variety": "VARIETY",
+    "placeholder0": "Select a field",
+    "placeholder1": "Select a plot",
+    "placeholder2": "Select a variety",
+    "selectPreviousStep": "Please select a previous step first."
+  },
+  "organismScan": {
+    "probableDiseases": "Probable diseases",
+    "probablePests": "Probable pests",
+    "analysisDetails": "Analysis details",
+    "summary": "Summary",
+    "environmentalConditions": "The environmental conditions on your field are very good. You can continue to cultivate your plants without any problem.",
+    "description": "Description",
+    "close": "Close"
+  },
+  "generalScan": {
+    "climaticConditions": "Climatic Conditions",
+    "analysisDetails": "Analysis Details",
+    "summary": "Summary",
+    "environmentalConditions": "The environmental conditions on your field are very good. You can continue to cultivate your plants without any problem."
+  },
+  "subScan": {
+    "probableDiseases": "Probable diseases",
+    "probablePests": "Probable pests",
+    "analysisDetails": "Analysis Details",
+    "summary": "Summary",
+    "environmentalConditions": "The environmental conditions on your field are very good. You can continue to cultivate your plants without any problem.",
+    "description": "Description",
+    "symptoms": "Symptoms",
+    "treatment": "Treatment",
+    "close": "Close"
+  },
+  "climaticMetrics": {
+    "temperature": "Temperature",
+    "soilMoisture": "Soil Moisture",
+    "airHumidity": "Air Humidity",
+    "luminosity": "Luminosity",
+    "high": "High",
+    "moderate": "Moderate",
+    "low": "Low",
+    "threshold": "Threshold between {{min}} and {{max}} {{unit}}",
+    "lastMeasurement": "Last measure: {{value}} {{unit}}",
+    "riskLevel": "Risk: {{risk}}"
+  }
+}

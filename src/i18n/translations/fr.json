@@ -1,0 +1,312 @@
+{
+  "general": {
+    "change_language": "FR",
+    "lang_fr": "Français",
+    "lang_en": "Anglais"
+  },
+  "auth": {
+    "general": {
+      "email": "Email",
+      "password": "Mot de passe",
+      "forgot_password_button": "Mot de passe oublié ?",
+      "other_methods": "Autres moyens de connexion :",
+      "google": "Continuer avec Google",
+      "username": "Nom d'utilisateur",
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "confirm_password": "Confirmez le mot de passe",
+      "city": "Ville",
+      "country": "Pays",
+      "postal_code": "Code postal",
+      "type_your": "Tapez votre",
+      "required": "est requis"
+    },
+    "login": {
+      "title": "Connectez-vous !",
+      "button": "Connexion",
+      "link": "Inscrivez-vous !",
+      "account": "Pas encore de compte ?"
+    },
+    "register": {
+      "title": "Inscrivez-vous !",
+      "button": "Inscription",
+      "link": "Connectez-vous",
+      "account": "Vous avez déjà un compte ?"
+    },
+    "validations": {
+      "username_required": "Le nom d'utilisateur est requis",
+      "username_minLength": "Le nom d'utilisateur doit comporter au moins 1 caractère",
+      "username_maxLength": "Le nom d'utilisateur ne peut pas dépasser 50 caractères",
+      "first_name_required": "Le prénom est requis",
+      "last_name_required": "Le nom est requis",
+      "email_required": "L'email est requis",
+      "email_pattern": "L'email n'est pas valide",
+      "email_maxLength": "L'email ne peut pas dépasser 80 caractères",
+      "city_required": "La ville est requise",
+      "country_required": "Le pays est requis",
+      "password_required": "Le mot de passe est requis",
+      "password_minLength": "Le mot de passe doit comporter au moins 8 caractères",
+      "password_maxLength": "Le mot de passe ne peut pas dépasser 60 caractères",
+      "confirm_password_required": "Les mots de passe ne sont pas similaires",
+      "confirm_password_validate": "Les mots de passe ne correspondent pas",
+      "city_minLength": "La ville doit comporter au moins 3 caractères",
+      "city_maxLength": "La ville ne peut pas dépasser 80 caractères",
+      "postal_code_minLength": "Le code postal est requis",
+      "postal_code_maxLength": "Le code postal ne peut pas dépasser 6 caractères",
+      "country_minLength": "Le pays doit comporter au moins 3 caractères",
+      "country_maxLength": "Le pays ne peut pas dépasser 26 caractères"
+    }
+  },
+  "welcome": {
+    "step-1_title": "Préservez vos cultures",
+    "step-1_subtitle": "Votre partenaire incontournable pour une agriculture plus résiliente et productive.",
+    "step-2_title": "Suivi de santé instantané",
+    "step-2_subtitle": "Boostez vos cultures en surveillant leur état de santé en temps réel.",
+    "step-3_title": "Cultures protégées",
+    "step-3_subtitle": "Nous prévenons les maladies ! Protégez vos cultures avec notre technologie de pointe.",
+    "step-4_title": "Éloignez les nuisibles",
+    "step-4_subtitle": "Dites adieu aux ravageurs ! Leafline détecte et prévient les infestations pour des récoltes sans tracas.",
+    "step-5_title": "Carte personnalisée",
+    "step-5_subtitle": "Nous mettons vos cultures à portée de main. Utilisez notre carte pour gérer facilement ce qui pousse sur votre terre.",
+    "step-6_title": "Rejoignez la révolution",
+    "step-6_subtitle": "Ne manquez pas l'opportunité de transformer votre manière de cultiver !",
+    "next_button": "Continuer",
+    "finish_button": "Terminer"
+  },
+  "home": {
+    "field": {
+      "title": "Vos terrains",
+      "titre": "Votre terrain",
+      "subtitle": "Ajoutez et gérez vos terrains.",
+      "card": {
+        "subtitle": "Mon terrain"
+      },
+      "health": {
+        "title": "Analyse de santé",
+        "subtitle": "Lancez l'analyse de votre terrain"
+      },
+      "map_title": "Carte",
+      "map_subtitle": "Voir votre champ sur la carte.",
+      "alert_title": "Alertes",
+      "alert_subtitle": "Voir les alertes pour votre terrain.",
+      "alert_description_danger": "Votre capteur n'a pas émis de données depuis plus de 24 heures !",
+      "alert_description_success": "Tout va bien ! Votre capteur fonctionne correctement.",
+      "sensor_title": "Données du capteur",
+      "sensor_temperature": "Température",
+      "sensor_subtitle": "Voir les mesures d'aujourd'hui.",
+      "sensor_title_history": "Historique",
+      "sensor_subtitle_history": "Votre historique hebdomadaire.",
+      "timestamp_monday": "Lundi",
+      "timestamp_tuesday": "Mardi",
+      "timestamp_wednesday": "Mercredi",
+      "timestamp_thursday": "Jeudi",
+      "timestamp_friday": "Vendredi",
+      "timestamp_saturday": "Samedi",
+      "timestamp_sunday": "Dimanche",
+      "card_subtitle": "Mon champ"
+    },
+    "welcome": {
+      "welcome": "Bienvenue",
+      "field": "Tous vos terrains vont bien !"
+    }
+  },
+  "account": {
+    "title": "Mes informations",
+    "content": "Mes paramètres",
+    "edit": "Modifier",
+    "country": "Pays",
+    "number": "Téléphone",
+    "email": "Email",
+    "username": "Nom d'utilisateur",
+    "city": "Ville",
+    "settings": "Paramètres",
+    "settings_subtitle": "Gérer mes paramètres.",
+    "theme": "Thème",
+    "theme_subtitle": "Changer d'apparence.",
+    "langn": "Langues",
+    "langn_subtitle": "Changer de langue.",
+    "cg": "Conditions générales",
+    "cg_subtitle": "Lire les conditions générales.",
+    "notifications": "Notifications",
+    "notifications_subtitle": "Gérer mes notifications.",
+    "mode_light": "Clair",
+    "mode_dark": "Sombre",
+    "button_validate": "Valider",
+    "button_close": "Fermer",
+    "profile": {
+      "title": "Modifier mon profil",
+      "subtitle": "Gérer mon profil.",
+      "email": "Email",
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "username": "Nom d'utilisateur",
+      "city": "Ville",
+      "country": "Pays",
+      "password": "Mot de passe",
+      "confirm_password": "Confirmez le mot de passe",
+      "button_validate": "Valider",
+      "button_cancel": "Annuler",
+      "button_delete": "Supprimer mon compte",
+      "delete_subtitle": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+      "delete_button": "Supprimer",
+      "update_requires_changes": "Le profil ne peut pas être mis à jour sans changements.",
+      "update_success": "Votre profil a été mis à jour avec succès",
+      "update_error": "Une erreur est survenue lors de la mise à jour de votre profil",
+      "delete_success": "Votre compte a été supprimé avec succès"
+    },
+    "cgu": {
+      "title": "Conditions d'utilisation et politique de confidentialité de Leafline",
+      "content": [
+        {
+          "section": "1. Introduction",
+          "details": "En utilisant l'application mobile Leafline, conçue pour assister les agriculteurs dans la surveillance et la gestion de leurs cultures via des capteurs, vous acceptez nos pratiques de collecte, traitement, et protection des données personnelles telles que décrites dans ce document."
+        },
+        {
+          "section": "2. Collecte des données",
+          "details": "Dans le cadre de nos services, Leafline collecte les données suivantes : données agricoles non personnelles : niveaux d'humidité du sol, températures ambiante et du sol, humidité relative de l'air, niveaux d'ensoleillement, prédiction des maladies des plantes basée sur des modèles algorithmiques. Données à caractère personnel : géolocalisation des parcelles agricoles, adresse e-mail utilisée pour la connexion à l'application."
+        },
+        {
+          "section": "3. Traitement des données",
+          "details": "Vos données agricoles sont traitées de manière sécurisée et confidentielle. Elles sont utilisées pour fournir des analyses et recommandations personnalisées visant à optimiser la gestion de vos cultures."
+        },
+        {
+          "section": "4. Sécurité des données",
+          "details": "Des mesures de sécurité techniques, organisationnelles et juridiques sont mises en place pour protéger vos données contre tout accès, divulgation ou altération non autorisés."
+        },
+        {
+          "section": "5. Conservation des données",
+          "details": "Vos données sont conservées uniquement pour la durée nécessaire aux fins pour lesquelles elles ont été collectées, conformément aux délais légaux de conservation."
+        },
+        {
+          "section": "6. Droits des utilisateurs",
+          "details": "Vous avez le droit d'accès, de rectification, d'effacement, de restriction du traitement, et de portabilité de vos données personnelles. Ces droits peuvent être exercés directement dans l'application ou en contactant notre support."
+        },
+        {
+          "section": "7. Désinscription",
+          "details": "Vous pouvez vous désinscrire de Leafline à tout moment. Vos données seront alors supprimées de manière sécurisée et irréversible."
+        },
+        {
+          "section": "8. Communication transparente",
+          "details": "Nous nous engageons à maintenir une communication transparente concernant nos pratiques de collecte, traitement, et protection de vos données personnelles."
+        },
+        {
+          "section": "9. Évolution de la politique de confidentialité",
+          "details": "Nous nous réservons le droit de modifier notre politique de confidentialité. Vous serez informé de toute modification significative."
+        },
+        {
+          "section": "10. Acceptation des conditions",
+          "details": "En cochant la case ci-dessous, vous acceptez les termes de ces conditions d'utilisation, incluant la collecte et le traitement de vos données agricoles et personnelles comme spécifié."
+        }
+      ]
+    }
+  },
+  "land": {
+    "creation": {
+      "title": "Créer un terrain",
+      "description": "Ici, renseignez votre nouveau terrain à surveiller.",
+      "fieldName": "Nom du terrain",
+      "fieldNamePlaceholder": "Entrez le nom du terrain",
+      "fieldNameRequired": "Le nom du terrain est requis",
+      "fieldType": "Type de terrain",
+      "fieldTypePlaceholder": "Entrez le type de terrain",
+      "fieldTypeRequired": "Le type de terrain est requis",
+      "plotCreation": "Délimitez vos parcelles",
+      "submit": "Créer votre terrain"
+    },
+    "details": {
+      "title": "Détails du terrain",
+      "description": "Ici, visualisez les détails de votre terrain.",
+      "update": "Retour"
+    },
+    "map": {
+      "title": "Parcelles",
+      "search": "Rechercher une adresse",
+      "bottomSheet": {
+        "title": "Créer votre parcelle",
+        "description": "Cliquez sur la carte pour délimiter votre parcelle.",
+        "fieldType": "Type de la zone",
+        "fieldTypePlaceholder": "Entrez un type",
+        "fieldTypeRequired": "Le type de la zone est requis",
+        "fieldColor": "Choisir une couleur",
+        "submit": "Créer votre parcelle",
+        "colorSubmitButton": "Enregistrer votre couleur"
+      },
+      "modal": {
+        "title": "Voulez-vous créer une nouvelle parcelle ?",
+        "cancel": "Retour",
+        "confirm": "Confirmer"
+      }
+    }
+  },
+  "plot": {
+    "visualisation": {
+      "title": "Détails de la parcelle",
+      "description": "Ici, visualisez les détails de votre parcelle.",
+      "color": "Couleur",
+      "type": "Type"
+    }
+  },
+  "field": {
+    "see": "Voir"
+  },
+  "scan": {
+    "title": "Votre culture a une santé préoccupante !",
+    "initialTitle": "Scannez pour évaluer la santé de votre culture !",
+    "scanButton": "Scan",
+    "fieldsCount": "Votre culture possède {{count}} champs :",
+    "fieldCondition": "Un champ de {{name}} qui est soumis à de {{test}} conditions",
+    "showDetails": "Voir le détail",
+    "hideDetails": "Masquer le détail",
+    "lastUpdate": "Dernière mise à jour : "
+  },
+  "step": {
+    "selectField": "Sélectionnez un champ",
+    "selectPlot": "Sélectionnez une parcelle",
+    "selectVariety": "Sélectionnez une variété",
+    "field": "CHAMP",
+    "plot": "PARCELLE",
+    "variety": "VARIÉTÉ",
+    "placeholder0": "Sélectionnez un champ",
+    "placeholder1": "Sélectionnez une parcelle",
+    "placeholder2": "Sélectionnez une variété",
+    "selectPreviousStep": "Veuillez sélectionner une étape précédente d'abord."
+  },
+  "organismScan": {
+    "probableDiseases": "Maladies probables",
+    "probablePests": "Nuisibles probables",
+    "analysisDetails": "Détails des analyses",
+    "summary": "Récapitulatif",
+    "environmentalConditions": "Les conditions environnementales soumises à votre terrain sont très bonnes. Vous pouvez continuer à cultiver vos plantes sans problème.",
+    "description": "Description",
+    "close": "Fermer"
+  },
+  "generalScan": {
+    "climaticConditions": "Conditions climatiques",
+    "analysisDetails": "Détails des analyses",
+    "summary": "Récapitulatif",
+    "environmentalConditions": "Les conditions environnementales soumises à votre terrain sont très bonnes. Vous pouvez continuer à cultiver vos plantes sans problème."
+  },
+  "subScan": {
+    "probableDiseases": "Maladies probables",
+    "probablePests": "Nuisibles probables",
+    "analysisDetails": "Détails des analyses",
+    "summary": "Récapitulatif",
+    "environmentalConditions": "Les conditions environnementales soumises à votre terrain sont très bonnes. Vous pouvez continuer à cultiver vos plantes sans problème.",
+    "description": "Description",
+    "symptoms": "Symptômes",
+    "treatment": "Traitement",
+    "close": "Fermer"
+  },
+  "climaticMetrics": {
+    "temperature": "Température",
+    "soilMoisture": "Humidité du sol",
+    "airHumidity": "Humidité de l'air",
+    "luminosity": "Luminosité",
+    "high": "Élevé",
+    "moderate": "Moyen",
+    "low": "Faible",
+    "threshold": "Seuil entre {{min}} et {{max}} {{unit}}",
+    "lastMeasurement": "Dernière mesure : {{value}} {{unit}}",
+    "riskLevel": "Risque : {{risk}}"
+  }
+}

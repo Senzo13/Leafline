@@ -1,17 +1,97 @@
-node_modules/
-.expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+# Dépendances
+/node_modules/
+/.pnp
+.pnp.js
 
-# macOS
+package-lock.json
+yarn.lock
+
+# Fichiers de build
+/android/app/build/
+/ios/build/
+/ios/Pods/
+
+
+
+# Fichiers de configuration et dossiers générés
+/android/.gradle
+/android/captures/
+/android/local.properties
+/android/gradle.properties
+/android/app/src/main/res/values/developer-config.xml
+/ios/.symlinks/
+/ios/Flutter/Flutter.podspec
+
+# Fichiers temporaires
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Fichiers de système d'exploitation
 .DS_Store
+Thumbs.db
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+# Fichiers de l'éditeur
+/.idea/
+/.vscode/
+/windows/
+*.jks
+*.keystore
+*.hprof
+
+# Fichiers de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Autres
+*.class
+*.jar
+!/android/gradle/wrapper/gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Fichiers secrets
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Fichiers Watchman
+.watchmanconfig
+
+# Fichiers de couverture
+/coverage/
+
+# Fichiers de rapport
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers et dossiers de bundle
+*.bundle
+/bundle-output/
+/index.android.bundle
+/index.android.bundle.meta
+/index.ios.bundle
+/index.ios.bundle.meta
+/assetsDest/
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# Storybook
+/storybook-static
+
+# Détours
+.husky
