@@ -111,7 +111,7 @@ const HealthScan: React.FC = () => {
           width: '100%',
           alignItems: 'center',
           flexGrow: 0,
-          marginTop: isHealthGood ? 116 : 140,
+          marginTop: isHealthGood ? 116 : 176,
         }}>
         <View style={styles.recap}>
           <Text
