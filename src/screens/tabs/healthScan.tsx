@@ -94,7 +94,7 @@ const HealthScan: React.FC = () => {
       <Animated.View
         style={[
           styles.scanButtonAnchor,
-          { transform: [{ translateY: -32 }, { scale: scaleValue }] },
+          { transform: [{ translateY: -42 }, { scale: scaleValue }] },
         ]}>
         <Button
           title={t('scan.scanButton')}
@@ -111,7 +111,7 @@ const HealthScan: React.FC = () => {
           width: '100%',
           alignItems: 'center',
           flexGrow: 0,
-          marginTop: 94,
+          marginTop: 116,
         }}>
         <View style={styles.recap}>
           <Text
