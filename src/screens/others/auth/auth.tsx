@@ -50,7 +50,7 @@ const Auth = ({ navigation }) => {
   }, [reset]);
 
   useEffect(() => {
-    getProfile();
+    void getProfile().catch(() => undefined);
   }, [getProfile]);
 
   const validations = AUTH_RULES(getValues);
